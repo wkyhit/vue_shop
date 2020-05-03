@@ -62,6 +62,7 @@ export default {
   //页面初始化执行created中方法
   created() {
     this.getMenuList();
+    this.activePath = window.sessionStorage.getItem("activePath");
   },
   data() {
     return {
