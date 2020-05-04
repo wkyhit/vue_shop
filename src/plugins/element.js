@@ -7,7 +7,8 @@ import {
     Table, TableColumn,
     Switch, Tooltip, Pagination,
     Dialog,
-    MessageBox
+    MessageBox,
+    Tag
 } from 'element-ui'
 //弹窗提示框
 import { Message } from 'element-ui'
@@ -38,6 +39,7 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
 
 
 
