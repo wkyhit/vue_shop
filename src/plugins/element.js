@@ -6,13 +6,15 @@ import {
     Row, Col,
     Table, TableColumn,
     Switch, Tooltip, Pagination,
-    Dialog
+    Dialog,
+    MessageBox
 } from 'element-ui'
 //弹窗提示框
 import { Message } from 'element-ui'
 
 
 Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
