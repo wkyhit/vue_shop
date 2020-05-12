@@ -9,7 +9,8 @@ import {
     Dialog,
     MessageBox,
     Tag, Tree,
-    Select, Option
+    Select, Option,
+    Cascader
 } from 'element-ui'
 //弹窗提示框
 import { Message } from 'element-ui'
@@ -44,6 +45,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 
 
