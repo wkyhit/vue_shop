@@ -11,7 +11,8 @@ import {
     Tag, Tree,
     Select, Option,
     Cascader,
-    Alert, Tabs, TabPane
+    Alert, Tabs, TabPane,
+    Step, Steps
 } from 'element-ui'
 //弹窗提示框
 import { Message } from 'element-ui'
@@ -50,6 +51,10 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Step)
+Vue.use(Steps)
+
+
 
 
 
